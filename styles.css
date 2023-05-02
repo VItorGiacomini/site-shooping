@@ -1,0 +1,23 @@
+.card{
+    width: 180px;
+    border-radius: 40px;
+    
+}
+.container{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.container h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 45px;
+}
+.container img{
+    border-radius: 10px;
+}
+.container img:hover{
+    transform: scale(1.1);
+    animation: ease-in;
+    z-index: 1;
+}
+
