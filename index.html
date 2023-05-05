@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
     <title>Site Shopping</title>
 </head>
 
@@ -63,6 +62,9 @@
             <div class="carousel-item">
                 <a href="./paginas/acessorios.html"><img src="./img/nav3.png" class="d-block w-100" alt="..."></a>
             </div>
+            <div class="carousel-item">
+                <a href="./paginas/acessorios.html"><img src="./img/nav4.png" class="d-block w-100" alt="..."></a>
+            </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
             data-bs-slide="prev">
@@ -74,23 +76,60 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
     </div>
-<div class="container">
-    <h2>CINEMA</h2>
+    
+<div class="container-card">
+    <section class="text-center">
+    <h2 class="texto-cinema">CINEMA</h2>
     <div class="card-group">
-        <div class="card">
-          <a href="./paginas/cinema/o-chamado-4.html"><img src="./img/o-chamado-4_-samara-ressurge_1.jpg" class="card-img-top" alt="..."></a>
+        <div class="card" id="card">
+            
+          <a href="./paginas/cinema/o-chamado-4.html" class="hover-cinema"><img src="./img/o-chamado-4_-samara-ressurge_1.jpg" id="img-film" class="card-img-top mx-auto" alt="..."></a>
         </div>
-        <div class="card">
-          <a href="./paginas/cinema/john-wick.html"><img src="./img/john-wick-4_-baba-yaga_1.jpg" class="card-img-top" alt="..."></a>
+        <div class="card"  id="card">
+          <a href="./paginas/cinema/john-wick.html" class="hover-cinema"><img src="./img/john-wick-4_-baba-yaga_1.jpg" id="img-film"  class="card-img-top mx-auto" alt="..."></a>
         </div>
-        <div class="card">
-            <a href="./paginas/cinema/a-morte-do-demonio.html"><img src="./img/a-morte-do-dem__nio-___-a-ascens__o_1.jpg" class="card-img-top" alt="..."></a>
+        <div class="card"  id="card">
+            <a href="./paginas/cinema/o-chamado-4.html"class="hover-cinema"><img src="./img/a-morte-do-dem__nio-___-a-ascens__o_1.jpg" id="img-film"  class="card-img-top mx-auto" alt="..."></a>
         </div>
       </div>
-      <button type="button" class="btn btn-primary btn-lg">Ver mais filmes</button>
+      <div class="text-center">
+    <button type="button" id="filmes" class="btn btn-primary btn-lg"><a href="./paginas/cinema.html">Ver mais filmes</a></button>
+      </div>
+    </section>
 </div>
 
+<section id="lojas" class="my-5">
+      <h2>Lojas</h2>
+      <div class="card-deck d-flex">
+        <div class="card flex-fill" id="tirar-bordaa">
+          <img src="./img/adidas.jpg" class="card-img-top" id="img-loja" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nome da Loja 1</h5>
+            <p class="card-text">Breve descrição da loja 1.</p>
+          </div>
+        </div>
+        <div class="card flex-fill"  id="tirar-bordaa">
+          <img src="./img/centauro.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nome da Loja 2</h5>
+            <p class="card-text">Breve descrição da loja 2.</p>
+          </div>
+        </div>
+        <div class="card flex-fill"  id="tirar-bordaa">
+          <img src="./img/prada.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nome da Loja 3</h5>
+            <p class="card-text">Breve descrição da loja 3.</p>
+          </div>
+        </div>
+      </div>
+  </section>
 
 
 

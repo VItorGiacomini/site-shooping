@@ -1,23 +1,84 @@
-.card{
+.card {
     width: 180px;
     border-radius: 40px;
-    
+    max-width: 100%;
 }
-.container{
+
+.container-card {
+    width: 100%;
     margin-top: 70px;
     margin-bottom: 70px;
+
 }
-.container h2{
+
+.texto-cinema {
     font-weight: bold;
     text-align: center;
     font-size: 45px;
+    padding-bottom: 5px;
 }
-.container img{
-    border-radius: 10px;
+
+#img-film {
+    width: 90%;
+    padding: 1px;
+    padding-top: 2px;
+    border-radius: 40px;
+    border: none;
 }
-.container img:hover{
-    transform: scale(1.1);
+
+.hover-cinema:hover,
+#img-film:hover {
+    transform: scale(1.01, 1.01);
     animation: ease-in;
     z-index: 1;
 }
 
+#card {
+    border: none;
+    margin: 0;
+}
+
+.text-center {
+    margin-top: 5px;
+}
+
+.text-center a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.text-center a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .card-img-top {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container-card {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #lojas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+.card-deck{ 
+    width: 850px;
+    border: none;
+}
+#tirar-bordaa{
+    border: none;
+}
