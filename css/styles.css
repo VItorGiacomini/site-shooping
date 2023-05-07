@@ -54,7 +54,7 @@ footer {
 
 #card-loja {
     border: none;
-margin: 95px;
+    margin: 220px;
 }
 .text-center {
     margin-top: 5px;
@@ -151,4 +151,8 @@ footer ul li a {
 }
 .bi:hover{
 	color: red;
+}
+body {
+	font-size: 16px;
+	background-color: #f8d4d40e;
 }

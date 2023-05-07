@@ -44,3 +44,6 @@ footer ul li a {
 .bi:hover{
 	color: red;
 }
+#imagem{
+	object-fit: cover;
+}
