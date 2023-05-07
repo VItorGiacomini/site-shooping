@@ -138,3 +138,17 @@ margin: 95px;
     background-color: rgba(168, 168, 168, 0.151);
 }
 
+footer ul li {
+	display: inline-block;
+	margin-right: 20px;
+  }
+  
+footer ul li a {
+	font-size: 30px;
+  }
+  .bi{
+	color: black;
+}
+.bi:hover{
+	color: red;
+}
