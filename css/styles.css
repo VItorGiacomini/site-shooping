@@ -19,11 +19,12 @@
 }
 
 #img-film {
-    width: 90%;
+    width: 80%;
     padding: 1px;
-    padding-top: 2px;
+    padding-top: 10px;
     border-radius: 40px;
     border: none;
+
 }
 
 .hover-cinema:hover,
@@ -33,11 +34,28 @@
     z-index: 1;
 }
 
+.hover-loja:hover,
+#img-loja:hover {
+    transform: scale(1.01, 1.01);
+    animation: ease-in;
+    z-index: 1;
+}
 #card {
     border: none;
     margin: 0;
 }
+footer {
+	background-color: #f2f2f2;
+	padding: 30px;
+	margin-top: 50px;
+    width: 100%;
+	color: #666;
+}
 
+#card-loja {
+    border: none;
+margin: 95px;
+}
 .text-center {
     margin-top: 5px;
 }
@@ -51,8 +69,12 @@
     text-decoration: none;
     color: black;
 }
+#filmes{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .card-img-top {
         max-width: 100%;
         height: auto;
@@ -66,19 +88,53 @@
         flex-wrap: wrap;
     }
 
-    #lojas {
+    .loja {
+       
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
         flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 45px;
     }
+    #card-loja {
+        width: 40%;
+        border: none;
+        margin: 5px;
+        
+    }
+}
+@media (min-width: 768px) {
+    .loja {
+       
 
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 45px;
+    }
+    #card-loja {
+        width: 20%;
+        border: none;
+        margin: 5px;
+        
+    }
 }
-.card-deck{ 
-    width: 850px;
+
+
+#tirar-bordaa {
     border: none;
 }
-#tirar-bordaa{
-    border: none;
+
+.loja {
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
 }
+
+#texto-loja {
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: rgba(168, 168, 168, 0.151);
+}
+
