@@ -29,3 +29,17 @@ footer {
     text-decoration: none;
     color: #fff;
 }
+footer ul li {
+	display: inline-block;
+	margin-right: 20px;
+  }
+  
+footer ul li a {
+	font-size: 30px;
+  }
+  .bi{
+	color: black;
+}
+.bi:hover{
+	color: red;
+}
