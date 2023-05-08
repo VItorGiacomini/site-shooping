@@ -1,0 +1,41 @@
+body {
+    background-color: #f8d4d40e;
+  }
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  .content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  .content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  footer ul li {
+	display: inline-block;
+	margin-right: 20px;
+  }
+  
+footer ul li a {
+	font-size: 30px;
+  }
+  .bi{
+	color: black;
+}
+.bi:hover{
+	color: red;
+}
+footer {
+	background-color: #f2f2f2;
+	padding: 30px;
+	margin-top: 50px;
+    width: 100%;
+	color: #666;
+}
