@@ -23,11 +23,12 @@
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav" id="links">
                   <a class="nav-link active" aria-current="page" href="../index.html">Início</a>
-                  <a class="nav-link" href="../login.html">Entrar</a>
+                  <a class="nav-link" href="../login.html">Login</a>
                   <a class="nav-link" href="./cinema.html">Cinema</a>
                     <a href="./lojas.html" class="nav-link">Lojas</a>
                     <a href="../registro.html" class="nav-link">Praça de Alimentação</a>
                     <a href="../contato.html" class="nav-link">Contato</a>
+                    <link rel="stylesheet" href="./css/toast.css">
                 </div>
               </div>
             </div>
@@ -89,6 +90,17 @@
                 <li><a href="#" target="_blank"><i class="bi bi-instagram"></i></a></li>
                 <li><a href="#" target="_blank"><i class="bi bi-youtube"></i></a></li>
             </ul>
+            <button type="button" class="btn btn-danger" id="basicToastBtn">Encontrou algum problema?</button>
+            <div class="toast-container position-fixed top-0 end-0 p-3">
+              <div id="basicToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header bg-primary text-light">
+                  <h5 class="my-0">Contato</h5>
+                </div>
+                <div class="toast-body">
+                  <strong>Caso encontre algum problema</strong> <a href="./contato.html">Clique aqui</a> para entrar em contato com a gente!
+                </div>
+              </div>  
+            </div>
         </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"

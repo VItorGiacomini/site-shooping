@@ -47,3 +47,6 @@ footer ul li a {
 #imagem{
 	object-fit: cover;
 }
+a{
+	cursor: pointer;
+}
