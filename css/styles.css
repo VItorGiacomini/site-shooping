@@ -6,7 +6,7 @@
 
 .container-card {
     width: 100%;
-    margin-top: 70px;
+    margin-top: 90px;
     margin-bottom: 70px;
 
 }
@@ -79,7 +79,7 @@ footer {
         max-width: 100%;
         height: auto;
     }
-
+    
     .container-card {
         box-sizing: border-box;
         display: flex;

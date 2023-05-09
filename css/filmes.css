@@ -1,11 +1,9 @@
-header {
+
+ h1 {
+    margin: 0;
     background-color: #333;
     color: #fff;
     padding: 10px;
-}
-
-header h1 {
-    margin: 0;
 }
 
 ul {
@@ -75,4 +73,7 @@ footer ul li a {
 body {
 	font-size: 16px;
 	background-color: #f8d4d40e;
+}
+.text-center{
+    width: 100%;
 }
